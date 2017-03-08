@@ -36,15 +36,15 @@ function asset($file)
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
-            <button class="hamburger hamburger--spring navbar-toggle collapsed hide" type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <button class="hamburger hamburger--squeeze navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                 <span class="hamburger-box">
                   <span class="hamburger-inner"></span>
                 </span>
             </button>
 
-            <a class="navbar-brand" href="#"><img src="/img/vault.png" class="logo"/></a>
+            <a class="navbar-brand" href="#"><img src="/images/logo.png" class="logo"/></a>
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
+        <div id="navbar" class="collapse">
             <ul class="nav navbar-nav">
                 <li class="active"><a href="#">Dashboard</a></li>
             </ul>
@@ -58,7 +58,14 @@ function asset($file)
 
 
 <div class="container">
-
+	<div id="image-grid" class="row">
+		
+	</div>
+	<script id="display-cats" type="text/x-handlebars-template">
+	{{#each items}}
+		{{placeCats}}
+	{{/each}}
+	</script>
 </div>
 
 <!-- Bootstrap core JavaScript

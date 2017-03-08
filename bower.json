@@ -21,6 +21,7 @@
     "bootstrap": "~3.3.6",
     "handlebars": "~4.0.5",
     "font-awesome": "~4.5.0",
-    "css-hamburgers": "^0.7.0"
+    "css-hamburgers": "^0.7.0",
+    "gulp": "^3.9.1"
   }
 }

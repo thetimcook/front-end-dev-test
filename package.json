@@ -14,5 +14,8 @@
     "rimraf": "^2.4.3",
     "run-sequence": "^1.1.4",
     "through2": "^2.0.0"
+  },
+  "dependencies": {
+    "gulp-concat": "^2.6.1"
   }
 }

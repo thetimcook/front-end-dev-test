@@ -34,8 +34,8 @@ gulp.task('css', function() {
     return gulp.src([
             assetsDir + '/components/bootstrap/dist/css/bootstrap.css',
             assetsDir + '/components/font-awesome/css/font-awesome.css',
-            assetsDir + '/components/css-hamburgers/dist/hamburgers.css',
-            assetsDir + '/sass/**/*.scss'
+            assetsDir + '/sass/**/*.scss',
+            assetsDir + '/components/css-hamburgers/dist/hamburgers.css'
         ])
         .pipe(sass({
             errLogToConsole: true,
